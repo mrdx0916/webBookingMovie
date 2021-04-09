@@ -1,0 +1,53 @@
+.danhSachGhe {
+    .ghe {
+        width: 35px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: rgb(65, 56, 56);
+        color: white;
+    }
+    .gheVip {
+        width: 35px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: rgb(186, 124, 58);
+        color: white;
+    }
+    .gheDaDat {
+        width: 35px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: rgb(16, 8, 1);
+        color: white;
+    }
+    .gheDangDat {
+        background-color: green;
+    }
+}
+.detailRight {
+    .detailRightOA {
+        border-bottom: 2px dashed #c49797;
+        padding-bottom: 12px;
+    }
+    .detailRightOC01 {
+        border-bottom: 2px dashed #c49797;
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+    .detailRightOC02 {
+        border-bottom: 2px dashed #c49797;
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+    .detailRightOD {
+        .detailRightODalert {
+            width: 40px;
+            height: 20px;
+            border: 1px solid red;
+            border-radius: 50%;
+        }
+        .detailRightOD01 {
+            font-size: 10px;
+        }
+    }
+}

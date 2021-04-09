@@ -1,0 +1,37 @@
+.ChiTietPhimLichChieu01 {
+    position: relative;
+
+    .ChiTietPhimLichChieu02 {
+        color: white;
+        position: relative;
+        z-index: 3;
+    }
+    .ChiTietPhimLichChieu03 {
+        min-height: 720px;
+    }
+}
+.circles {
+    z-index: 9;
+    color: white;
+    position: relative;
+    .circle1 {
+        .circle3 {
+            .circleKhoiChieu {
+                color: yellow;
+            }
+            .circletenPhim {
+                font-size: 40px;
+                font-weight: $fw-bold;
+            }
+        }
+    }
+}
+.ChiTietPhimLichChieuCover {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.9;
+    z-index: 1;
+}

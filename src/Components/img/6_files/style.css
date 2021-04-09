@@ -1,0 +1,352 @@
+@font-face {
+  font-family: 'znews-icon';
+  src:  url('fonts/znews-icon.eot?la9gpo');
+  src:  url('fonts/znews-icon.eot?la9gpo#iefix') format('embedded-opentype'),
+    url('fonts/znews-icon.ttf?la9gpo') format('truetype'),
+    url('fonts/znews-icon.woff?la9gpo') format('woff'),
+    url('fonts/znews-icon.svg?la9gpo#znews-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  font-display: swap;
+}
+
+[class^="znews-ic-"], [class*=" znews-ic-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'znews-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.znews-ic-quote:before {
+  content: "\e96b";
+}
+.znews-ic-tag-1:before {
+  content: "\e909";
+}
+.znews-ic-noodles:before {
+  content: "\e900";
+}
+.znews-ic-heart-alt:before {
+  content: "\e901";
+}
+.znews-ic-connection:before {
+  content: "\e902";
+}
+.znews-ic-cloud:before {
+  content: "\e903";
+}
+.znews-ic-hand:before {
+  content: "\e904";
+}
+.znews-ic-rain:before {
+  content: "\e905";
+}
+.znews-ic-sun:before {
+  content: "\e906";
+}
+.znews-ic-umbrella:before {
+  content: "\e907";
+}
+.znews-ic-arrow-right:before {
+  content: "\e908";
+}
+.znews-ic-code:before {
+  content: "\e90a";
+}
+.znews-ic-delete-cross:before {
+  content: "\e90b";
+}
+.znews-ic-flame:before {
+  content: "\e90c";
+}
+.znews-ic-football:before {
+  content: "\e90d";
+}
+.znews-ic-like:before {
+  content: "\e96a";
+}
+.znews-ic-wt-13:before {
+  content: "\e90e";
+}
+.znews-ic-picture:before {
+  content: "\e90f";
+}
+.znews-ic-comments:before {
+  content: "\e910";
+}
+.znews-ic-note:before {
+  content: "\e911";
+}
+.znews-ic-infographic-2:before {
+  content: "\e912";
+}
+.znews-ic-camera:before {
+  content: "\e913";
+}
+.znews-ic-search:before {
+  content: "\e914";
+}
+.znews-ic-speaker:before {
+  content: "\e915";
+}
+.znews-ic-star:before {
+  content: "\e916";
+}
+.znews-ic-sun-and-cloud:before {
+  content: "\e917";
+}
+.znews-ic-video-camera:before {
+  content: "\e918";
+}
+.znews-ic-book:before {
+  content: "\e919";
+}
+.znews-ic-pie-chart:before {
+  content: "\e91a";
+}
+.znews-ic-heartbeat:before {
+  content: "\e91b";
+}
+.znews-ic-pencil:before {
+  content: "\e91c";
+}
+.znews-ic-travel:before {
+  content: "\e91d";
+}
+.znews-ic-car:before {
+  content: "\e91e";
+}
+.znews-ic-graduated:before {
+  content: "\e91f";
+}
+.znews-ic-musical-note:before {
+  content: "\e920";
+}
+.znews-ic-planet:before {
+  content: "\e921";
+}
+.znews-ic-business-1:before {
+  content: "\e922";
+}
+.znews-ic-cup:before {
+  content: "\e923";
+}
+.znews-ic-laptop:before {
+  content: "\e924";
+}
+.znews-ic-balance:before {
+  content: "\e925";
+}
+.znews-ic-stripes:before {
+  content: "\e926";
+}
+.znews-ic-video:before {
+  content: "\e927";
+}
+.znews-ic-food:before {
+  content: "\e928";
+}
+.znews-ic-newspaper:before {
+  content: "\e929";
+}
+.znews-ic-glass-eyes:before {
+  content: "\e92a";
+}
+.znews-ic-theater:before {
+  content: "\e92b";
+}
+.znews-ic-play-video:before {
+  content: "\e92c";
+}
+.znews-ic-square:before {
+  content: "\e92d";
+}
+.znews-ic-stop-autoplay:before {
+  content: "\e92e";
+}
+.znews-ic-autoplay:before {
+  content: "\e92f";
+}
+.znews-ic-mute-volume:before {
+  content: "\e930";
+}
+.znews-ic-volume:before {
+  content: "\e931";
+}
+.znews-ic-wt-12:before {
+  content: "\e932";
+}
+.znews-ic-wt-11:before {
+  content: "\e933";
+}
+.znews-ic-wt-10:before {
+  content: "\e934";
+}
+.znews-ic-wt-09:before {
+  content: "\e935";
+}
+.znews-ic-wt-08:before {
+  content: "\e936";
+}
+.znews-ic-wt-07:before {
+  content: "\e937";
+}
+.znews-ic-wt-06:before {
+  content: "\e938";
+}
+.znews-ic-wt-05:before {
+  content: "\e939";
+}
+.znews-ic-wt-04:before {
+  content: "\e93a";
+}
+.znews-ic-wt-03:before {
+  content: "\e93b";
+}
+.znews-ic-wt-02:before {
+  content: "\e93c";
+}
+.znews-ic-wt-01:before {
+  content: "\e93d";
+}
+.znews-ic-gear:before {
+  content: "\e93e";
+}
+.znews-ic-tv:before {
+  content: "\e93f";
+}
+.znews-ic-lotto:before {
+  content: "\e940";
+}
+.znews-ic-fuel:before {
+  content: "\e941";
+}
+.znews-ic-stock:before {
+  content: "\e942";
+}
+.znews-ic-gold:before {
+  content: "\e943";
+}
+.znews-ic-currencies:before {
+  content: "\e944";
+}
+.znews-ic-flag:before {
+  content: "\e945";
+}
+.znews-ic-area:before {
+  content: "\e946";
+}
+.znews-ic-users:before {
+  content: "\e947";
+}
+.znews-ic-company:before {
+  content: "\e948";
+}
+.znews-ic-hashtag:before {
+  content: "\e949";
+}
+.znews-ic-watch:before {
+  content: "\e94a";
+}
+.znews-ic-iphone:before {
+  content: "\e94b";
+}
+.znews-ic-imac:before {
+  content: "\e94c";
+}
+.znews-ic-laptop-mac:before {
+  content: "\e94d";
+}
+.znews-ic-smart-home:before {
+  content: "\e94e";
+}
+.znews-ic-car-model-1:before {
+  content: "\e94f";
+}
+.znews-ic-flash:before {
+  content: "\e950";
+}
+.znews-ic-faq:before {
+  content: "\e951";
+}
+.znews-ic-quiz:before {
+  content: "\e952";
+}
+.znews-ic-bookmark-1:before {
+  content: "\e953";
+}
+.znews-ic-arrow-line-up:before {
+  content: "\e954";
+}
+.znews-ic-share1:before {
+  content: "\e955";
+}
+.znews-ic-arrow-up:before {
+  content: "\e956";
+}
+.znews-ic-arrow-left:before {
+  content: "\e957";
+}
+.znews-ic-arrow-down:before {
+  content: "\e958";
+}
+.znews-ic-share:before {
+  content: "\e959";
+}
+.znews-ic-error-report:before {
+  content: "\e95a";
+}
+.znews-ic-pause-bars:before {
+  content: "\e95b";
+}
+.znews-ic-indi-video:before {
+  content: "\e95c";
+}
+.znews-ic-indi-pic3:before {
+  content: "\e95d";
+}
+.znews-ic-replay:before {
+  content: "\e95e";
+}
+.znews-ic-copy-link:before {
+  content: "\e95f";
+}
+.znews-ic-comment-2:before {
+  content: "\e960";
+}
+.znews-ic-menu-line:before {
+  content: "\e961";
+}
+.znews-ic-menu-line-2:before {
+  content: "\e962";
+}
+.znews-ic-bell:before {
+  content: "\e963";
+}
+.znews-ic-download-arrow:before {
+  content: "\e964";
+}
+.znews-ic-share2:before {
+  content: "\e965";
+}
+.znews-ic-more-vertical:before {
+  content: "\e966";
+}
+.znews-ic-focus-lens:before {
+  content: "\e967";
+}
+.znews-ic-calendar:before {
+  content: "\e968";
+}
+.znews-ic-play-solid:before {
+  content: "\e969";
+}

@@ -1,0 +1,91 @@
+.pageTrangChu {
+    // @include responsive("extra-large") {
+    //     .teach {
+    //         display: none;
+    //     }
+    //     .business {
+    //         display: none;
+    //     }
+    // }
+    // @include responsive("large") {
+    //     .navbar-nav {
+    //         display: flex;
+    //         flex-direction: row;
+    //         align-items: center;
+    //         .ude-btngroup {
+    //             display: flex;
+    //         }
+    //         .business {
+    //             display: none;
+    //         }
+    //     }
+    // }
+    // @include responsive("medium") {
+    //     flex-wrap: nowrap;
+    //     align-items: center;
+    //     .navbar-nav {
+    //         display: flex;
+    //         flex-direction: row;
+    //         align-items: center;
+    //         .ude-btngroup {
+    //             display: flex;
+    //         }
+    //     }
+    // }
+    .DanhSachPhim2 {
+        .DanhSachPhim1 {
+            .DanhSachPhim {
+                .dsPhimcard {
+                    position: relative;
+                    &:hover {
+                        .iconPlay {
+                            opacity: 1;
+                        }
+                    }
+                    .iconPlay {
+                        color: white;
+                        background: none;
+                        position: absolute;
+                        left: 35%;
+                        top: 32%;
+                        transform: translate(-50% -50%);
+                        text-align: center;
+                        width: 50px;
+                        height: 50px;
+                        line-height: 45px;
+                        border-radius: 50%;
+                        border: 1px solid white;
+                        z-index: 99;
+                        opacity: 0;
+                    }
+                    .tiltle1 {
+                        height: 382px;
+                    }
+                }
+            }
+        }
+    }
+}
+//responsive
+@include responsive("small") {
+    body {
+        .pageTrangChu {
+            .DanhSachPhim2 {
+                .DanhSachPhim1 {
+                    .DanhSachPhim {
+                        .dsPhimcard {
+                            display: flex;
+                            justify-content: center;
+                            .tiltle1 {
+                                width: 70% !important;
+                                #tiltleimgId {
+                                    height: 350px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

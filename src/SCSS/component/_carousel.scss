@@ -1,0 +1,39 @@
+.TCcarousel {
+    position: relative;
+    .playVideo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 1px solid white;
+        background-color: rgba(255, 255, 0, 0);
+        font-size: 60px;
+        color: rgba(99, 6, 6, 0.686);
+        line-height: 60px;
+    }
+}
+//responsive
+
+.TCcarousel {
+    .div1Carousel {
+        @include responsive("small") {
+            .h3Carousel {
+                height: 300px !important;
+                // .imgCarousel {
+                //     height: 300px;
+                // }
+            }
+        }
+        @include responsive("large") {
+            .h3Carousel {
+                height: 400px !important;
+                // .imgCarousel {
+                //     height: 300px;
+                // }
+            }
+        }
+    }
+}

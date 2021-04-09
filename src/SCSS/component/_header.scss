@@ -1,0 +1,89 @@
+.portion1 {
+   .portion1UngDung {
+      border: none;
+   }
+   a {
+      text-decoration: none;
+      padding-right: $pd-1;
+      margin-right: $mg-1;
+      border-right: 1px solid black;
+   }
+}
+#headerGeneral {
+   text-decoration: none;
+   .nutClick {
+      .nutNhap {
+         color: black;
+         margin-left: 10px;
+         padding: 10px;
+
+         text-decoration: none;
+         border: 1px solid;
+         border-radius: 10px;
+         padding: 10px;
+         box-shadow: 5px 5px #888888;
+      }
+   }
+}
+header {
+   z-index: 100;
+   #headerGeneral {
+      background: linear-gradient(to bottom, rgb(235, 201, 201), white);
+      z-index: 100;
+      box-shadow: 2px 5px 10px black;
+      .headerGeneral__img {
+         margin: 10px;
+         border-radius: 10px;
+      }
+   }
+   .header-mobi {
+      top: 100%;
+      left: 0%;
+      right: 0;
+      z-index: -1;
+      padding: 20px;
+      background-color: none;
+      // border: 1px solid black;
+      .header-mobi__in {
+         z-index: -1;
+         width: 100%;
+         display: flex;
+         justify-content: end;
+      }
+   }
+}
+.display-hide {
+   background-color: rgba(0, 0, 0, 0.685);
+   position: fixed;
+   width: 100%;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   z-index: 95;
+}
+.header-mobi {
+   .nutClick {
+      .nutNhap {
+         color: black;
+         // margin-left: 10px;
+         // padding: 10px;
+         width: 100%;
+         display: block;
+         text-decoration: none;
+         // border: 1px solid;
+         // padding: 10px;
+         // box-shadow: 5px 10px #888888;
+      }
+   }
+}
+// @include responsive("medium") {
+//     .HeThongRapNotRespnsive {
+//         display: none;
+//     }
+// }
+// @include responsive("large") {
+//     .HeThongRapNotRespnsive {
+//         display: flex;
+//     }
+// }

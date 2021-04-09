@@ -1,0 +1,126 @@
+.--z--countdown-box {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  border-radius: .2em;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.4em;
+  padding: .3em .6em;
+  position: absolute;
+  left: .5em;
+  bottom: .5em; }
+  .--z--countdown-box .--z--btn-cancel {
+    display: inline-block;
+    margin-left: .2em;
+    color: #27baf4;
+    padding: 0 .36em 0 .7em; }
+  .--z--countdown-box .--z--text-countdown {
+    margin-left: .9em;
+    font-weight: bold;
+    display: inline-block; }
+  .--z--countdown-box.--z--muted {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    padding: 0;
+    display: block;
+    font-size: 1em; }
+    .--z--countdown-box.--z--muted .--z--unmute-box {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      align-items: center;
+      padding: .4em 0 .3em .4em;
+      width: auto;
+      border-radius: .2em;
+      background-color: rgba(0, 0, 0, 0.3);
+      left: initial;
+      right: 1em;
+      animation: none; }
+      .--z--countdown-box.--z--muted .--z--unmute-box span {
+        font-size: 1.2em;
+        font-weight: 500;
+        text-transform: uppercase;
+        display: inline-block;
+        white-space: nowrap; }
+    .--z--countdown-box.--z--muted .--z--btn-unmute {
+      margin-left: 0;
+      font-size: 1.6em;
+      color: #fff;
+      border-radius: .1em;
+      padding: 0 .4em; }
+      .--z--countdown-box.--z--muted .--z--btn-unmute .--z--icon {
+        font-size: 1.4em;
+        margin-right: .15625em;
+        color: inherit;
+        position: relative;
+        top: .0625em; }
+
+@-webkit-keyframes decrease-width-button {
+  0% {
+    width: 18em; }
+  100% {
+    width: 4.5em; } }
+
+@-moz-keyframes decrease-width-button {
+  0% {
+    width: 18em; }
+  100% {
+    width: 4.5em; } }
+
+@-ms-keyframes decrease-width-button {
+  0% {
+    width: 18em; }
+  100% {
+    width: 4.5em; } }
+
+@keyframes decrease-width-button {
+  0% {
+    width: 18em; }
+  100% {
+    width: 4.5em; } }
+
+@-webkit-keyframes decrease-opacity {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@-moz-keyframes decrease-opacity {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@-ms-keyframes decrease-opacity {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes decrease-opacity {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+

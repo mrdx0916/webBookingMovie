@@ -1,0 +1,18 @@
+.footerContent {
+    width: 100%;
+    background-color: #222;
+    .footerIntro {
+        max-width: 940px;
+        margin: auto;
+        .lineFooter {
+            border-top: 1px solid #4a4a4a;
+        }
+    }
+    .footerIntroResponsive {
+        max-width: 940px;
+        margin: auto;
+        .lineFooter {
+            border-top: 1px solid #4a4a4a;
+        }
+    }
+}

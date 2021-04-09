@@ -1,0 +1,37 @@
+// #root {
+//     position: relative;
+//     #hinhNen {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         width: 100%;
+//         z-index: 500;
+//         background-image: url("https://1.bp.blogspot.com/-MH3GqJHl84g/XqZs3fqqEGI/AAAAAAAAjUw/mC3fmmLPvMw0qZEtkMvD9XAbBcBXBXYhgCLcBGAsYHQ/s1600/Hinh-nen-vu-tru%2B%25281%2529.jpg");
+//         background-size: cover;
+//         background-repeat: no-repeat;
+//     }
+// }
+
+// @include responsive("medium") {
+// body {
+//     #root {
+//     #pageTrangChu {
+//         #heThongRapContainerId {
+//             #HeThongRapNotRespnsive {
+//                 display: none;
+//             }
+//             // }
+//             //         }
+//         }
+//     }
+// }
+// @include responsive("medium") {
+//     .HeThongRapNotRespnsive {
+//         display: none;
+//     }
+// }
+// @include responsive("large") {
+//     .HeThongRapNotRespnsive {
+//         display: flex;
+//     }
+// }
